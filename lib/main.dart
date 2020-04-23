@@ -46,7 +46,7 @@ class CovidListState extends State<CovidList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Casos de Covid-19 por estado'),
+        title: Text('Coronavirus in Brazil'),
       ),
       body: _buildCovidItens(),
     );
