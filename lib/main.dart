@@ -33,9 +33,7 @@ class CovidListState extends State<CovidList> {
           itemCount: covid_data.length,
           itemBuilder: (context, i ) {
             if (i <=  covid_data.length) {}  
-            return ListTile(
-              title: Text(covid_data[i])
-            );
+            return Text(covid_data[i]);
           },
         );
       },
