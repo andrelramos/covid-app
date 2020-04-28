@@ -35,7 +35,7 @@ class CovidListState extends State<CovidList> {
             if (i <=  covid_data.length) {}  
             return ListTile(
               title: Text(covid_data[i])
-            );
+            ); //ta
           },
         );
       },
