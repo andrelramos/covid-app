@@ -1,5 +1,5 @@
 # covidapp
-
+sq
 A new Flutter project.
 
 ## Getting Started
